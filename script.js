@@ -190,6 +190,7 @@ document.querySelector('.menuToggle').onclick = function () {
 };
 
 
+
 locomotiveAnimation()
 
 navAnimation()

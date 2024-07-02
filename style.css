@@ -778,10 +778,12 @@ body, html {
     position: absolute;
     top: 430px;
     right: 0px;
-    right: 30px;
     width: 200px;
     height: 200px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
 
 .menu li {
@@ -857,14 +859,15 @@ body, html {
     right: 100px; /* Adjust to move the plus sign horizontally */
     width: 60px;
     height: 60px;
-    top: 515px; /* Adjust to move the plus sign vertically */
-    right: 110px; /* Adjust to move the plus sign horizontally */
-    width: 30px;
-    height: 30px;
     color: #8b8b8b;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    z-index: 1001;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 32px;
+    transition: 1.5s;
 }
 
 .menu.active .menuToggle {
